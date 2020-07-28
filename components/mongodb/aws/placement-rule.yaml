@@ -1,7 +1,7 @@
 apiVersion: "apps.open-cluster-management.io/v1"
 kind: "PlacementRule"
 metadata:
-  name: "airline-component-mongo"
+  name: "airline-component"
 spec:
   matchLabels:
     cloud: "Amazon"

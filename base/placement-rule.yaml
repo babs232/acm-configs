@@ -1,7 +1,7 @@
 apiVersion: "apps.open-cluster-management.io/v1"
 kind: "PlacementRule"
 metadata:
-  name: "some-placement-rule-name-to-be-replaced"
+  name: "airline-component"
 spec:
   clusterConditions:
     - type: OK

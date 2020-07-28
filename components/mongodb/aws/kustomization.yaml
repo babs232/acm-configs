@@ -4,7 +4,7 @@ kind: Kustomization
 bases:
   - ../../../base
 
-nameSuffix: "-aws"
+nameSuffix: "-mongo-aws"
 
 patchesStrategicMerge:
   - placement-rule.yaml
