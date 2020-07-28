@@ -4,3 +4,4 @@ namespace: "airline-hybrid-demo"
 resources:
   - namespace.yaml
   - application.yaml
+  - git-secret.yaml
