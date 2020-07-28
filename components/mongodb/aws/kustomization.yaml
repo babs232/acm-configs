@@ -9,3 +9,4 @@ nameSuffix: "-mongo-aws"
 patchesStrategicMerge:
   - placement-rule.yaml
   - subscription.yaml
+  - git-channel.yaml
