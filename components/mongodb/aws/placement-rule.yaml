@@ -3,5 +3,6 @@ kind: "PlacementRule"
 metadata:
   name: "airline-component"
 spec:
-  matchLabels:
-    cloud: "Amazon"
+  clusterSelector:
+    matchLabels:
+      cloud: "Amazon"
