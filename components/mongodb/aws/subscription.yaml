@@ -1,0 +1,13 @@
+apiVersion: "apps.open-cluster-management.io/v1"
+kind: "Subscription"
+metadata:
+  name: "hybrid-airline-mongo-subscription"
+  labels:
+    cloud: "Amazon"
+  annotations:
+    apps.open-cluster-management.io/github-path: "overlays/aws"
+spec:
+  placement:
+    placementRef:
+      kind: "PlacementRule"
+      name: "airline-component-mongo-aws"

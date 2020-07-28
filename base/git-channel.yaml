@@ -1,0 +1,8 @@
+apiVersion: "apps.open-cluster-management.io/v1"
+kind: "Channel"
+metadata:
+  name: "some-channel-name-to-be-replaced"
+spec:
+  type: "GitHub"
+  pathname: "http://github.com/some-repo-to-be-replaced.git"
+  secretRef: "gitlab"
