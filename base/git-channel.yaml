@@ -5,5 +5,5 @@ metadata:
 spec:
   type: "GitHub"
   pathname: "http://github.com/some-repo-to-be-replaced.git"
-  secretRef:
-    name: gitlab
+  #secretRef:
+  #  name: gitlab

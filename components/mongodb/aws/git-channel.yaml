@@ -3,4 +3,4 @@ kind: "Channel"
 metadata:
   name: "hybrid-airline-git-channel"
 spec:
-  pathname: "http://ec2-34-192-194-113.compute-1.amazonaws.com/airline-application-cloud-native/mongodb.git"
+  pathname: "https://github.com/babs232/mongodb.git"
